@@ -5,7 +5,8 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-
+        # Time: O(n)
+        # Space: O(1)
         k = len(nums)
         cnt = 0
         for i in range(k):
